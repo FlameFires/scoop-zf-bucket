@@ -1,0 +1,39 @@
+{
+    "version": "5.2.1168.74",
+    "description": "Cent Browser - A Chromium-based browser with many features and customizations.",
+    "homepage": "https://www.centbrowser.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.centbrowser.com/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://static.centbrowser.com/win_stable/5.2.1168.74/centbrowser_5.2.1168.74_x64.exe#/dl.7z",
+            "hash": "TODO-SHA256-HERE"
+        }
+    },
+    "extract_dir": "CentBrowser",
+    "bin": [
+        [
+            "chrome.exe",
+            "centbrowser"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Cent Browser"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.centbrowser.cn/history.html",
+        "regex": "v([\\d.]+)\\s*\\(64.*?Stable\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_x64.exe#/dl.7z"
+            }
+        }
+    }
+}
