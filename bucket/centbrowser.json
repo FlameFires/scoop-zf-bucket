@@ -8,11 +8,10 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/win_stable/5.2.1168.74/centbrowser_5.2.1168.74_x64.exe#/dl.7z",
-            "hash": "A2F5582A8FB49CC4D60D96915DDEFB468A913731FE208A3CA8BFEE52CEF2CBCF"
+            "url": "https://static.centbrowser.cn/win_stable/5.2.1168.74/centbrowser_5.2.1168.74_x64_portable.exe#/dl.7z",
+            "hash": "C7FF60F3A93068B00CD08E0E1FA7889A8AA2477EEE646BA24A51E96835A756CB"
         }
     },
-    "extract_dir": "Chrome-bin",
     "bin": [
         [
             "chrome.exe",
