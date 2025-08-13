@@ -12,7 +12,7 @@
             "hash": "A2F5582A8FB49CC4D60D96915DDEFB468A913731FE208A3CA8BFEE52CEF2CBCF"
         }
     },
-    "extract_dir": "CentBrowser",
+    "extract_dir": "Chrome-bin",
     "bin": [
         [
             "chrome.exe",
