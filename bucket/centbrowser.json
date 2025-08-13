@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "http://static.centbrowser.com/win_stable/5.2.1168.74/centbrowser_5.2.1168.74_x64.exe#/dl.7z",
-            "hash": "TODO-SHA256-HERE"
+            "hash": "A2F5582A8FB49CC4D60D96915DDEFB468A913731FE208A3CA8BFEE52CEF2CBCF"
         }
     },
     "extract_dir": "CentBrowser",

@@ -7,4 +7,3 @@
 
 ```powershell
 scoop bucket add scoop-zf-bucket https://github.com/FlameFires/scoop-zf-bucket
-scoop install centbrowser
