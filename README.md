@@ -18,3 +18,4 @@ scoop install zf/centbrowser
 | catsxpbrowser | 148.6.5.5.7 | Catsxp Browser - 基于 Chromium 的隐私浏览器（便携版） |
 | ishellpro | 3.0.10 | iShellPro - 全协议终端管理平台（SSH/RDP/VNC/AI） |
 | wpsoffice | 12.2.0.21179 | WPS Office - 办公套件（Word/Excel/PPT） |
+| deepcool | 1.2.12 | DeepCool DeepCreative - 散热/RGB/风扇控制软件 |
