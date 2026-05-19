@@ -13,9 +13,8 @@
         }
     },
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\$fname\" -Switches '-t#'",
-        "Expand-7zipArchive \"$dir\\$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\" -Removal",
-        "Remove-Item \"$dir\\*\" -Exclude 'DeepCool.exe', 'resources' -Recurse"
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\" -Removal",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "bin": [
         [
