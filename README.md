@@ -6,4 +6,13 @@
 ## 使用方法
 
 ```powershell
-scoop bucket add scoop-zf-bucket https://github.com/FlameFires/scoop-zf-bucket
+scoop bucket add zf https://github.com/FlameFires/scoop-zf-bucket.git
+scoop install zf/centbrowser
+```
+
+## 可用软件
+
+| 名称 | 版本 | 描述 |
+|------|------|------|
+| centbrowser | 5.2.1168.83 | Cent Browser - 基于 Chromium 的功能丰富的浏览器 |
+| catsxpbrowser | 139.5.8.2 ⚠️ | Catsxp Browser - 基于 Chromium 的隐私浏览器 |
