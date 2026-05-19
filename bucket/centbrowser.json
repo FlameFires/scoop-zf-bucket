@@ -1,5 +1,5 @@
 {
-    "version": "5.2.1168.74",
+    "version": "5.2.1168.83",
     "description": "Cent Browser - A Chromium-based browser with many features and customizations.",
     "homepage": "https://www.centbrowser.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://static.centbrowser.cn/win_stable/5.2.1168.74/centbrowser_5.2.1168.74_x64_portable.exe#/dl.7z",
-            "hash": "C7FF60F3A93068B00CD08E0E1FA7889A8AA2477EEE646BA24A51E96835A756CB"
+            "url": "https://static.centbrowser.cn/win_stable/5.2.1168.83/centbrowser_5.2.1168.83_x64_portable.exe#/dl.7z",
+            "hash": "B7E13CD0002C3550BBBD7306C3D6CBC99E2532255EA9B4CAB4F099D8F0A81BDE"
         }
     },
     "bin": [
@@ -26,12 +26,12 @@
     ],
     "checkver": {
         "url": "https://www.centbrowser.cn/history.html",
-        "regex": "v([\\d.]+)\\s*\\(64.*?Stable\\)"
+        "regex": "v([\\d.]+)\\s*\\["
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_x64.exe#/dl.7z"
+                "url": "https://static.centbrowser.cn/win_stable/$version/centbrowser_$version_x64_portable.exe#/dl.7z"
             }
         }
     }
